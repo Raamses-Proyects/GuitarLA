@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA: Producto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <div class="header__barra">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img class="header__imagen" src="img/logo.svg" alt="imagen logo">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <a class="navegacion__link" href="index.html">Inicio</a>
+                    <a class="navegacion__link" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__link" href="blog.html">Blog</a>
+                    <a class="navegacion__link" href="tienda.html">Tienda</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        
+        <div class="producto mt-5">
+            <div class="producto__imagen">
+                <img src="img/guitarra_04.jpg" alt="imagen producto">
+            </div>
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">Vai</h3>
+                <p class="producto__descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore modi asperiores iste dicta pariatur quae voluptatem eius optio dicta pariatur quae voluptatem eius optio optio dicta pariatur quae voluptatem eius optio.</p>
+                <p class="producto__precio">$299</p>
+
+                <form class="formulario">
+                    <label class="formulario__label" for="cantidad">Cantidad:</label>
+                    <select class="formulario__select" id="cantidad">
+                        <option value="" selected disabled>--Seleccione--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <input class="formulario__enlace" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div> <!-- .producto -->
+
+        
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido contenedor">
+            <nav class="footer__nav">
+                <a class="footer__link" href="index.html">Inicio</a>
+                <a class="footer__link" href="nosotros.html">Nosotros</a>
+                <a class="footer__link" href="blog.html">Blog</a>
+                <a class="footer__link" href="tienda.html">Tienda</a>
+            </nav>
+            <p class="footer__copyright">Todos los derechos reservados &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
